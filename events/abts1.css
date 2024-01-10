@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+
+}
+
+/* Home Menu  */
+
+#abtswrapper{
+    background-color:#4A2ACE    ;
+    max-width: 100%;
+}
+/* #bactext:hover{
+    background-color:#9C8DD8; border-radius: 100px;
+}
+#bactext1:hover{
+    background-color:#9C8DD8; border-radius: 100px;
+}
+#bactext1{
+    background-color:#9C8DD8; border-radius: 100px;
+}
+#bactext2:hover{
+    background-color:#9C8DD8; border-radius: 100px;
+}
+#bactext55:hover{
+    background-color:#9C8DD8; border-radius: 100px;
+}
+#bactext4:hover{
+    background-color:#9C8DD8; border-radius: 100px;
+
+} */
+
+
+#abtus1{
+    margin-top: 65px;
+    
+}
+#sec2about{
+    text-align: center;
+    font-size: 50px;
+}
+#btnbacktohome{
+    text-align:center;
+    width: 220px;
+    height:52px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding-top: 12px;
+    font-size: 16px;
+    margin-bottom: 116px;
+}
+#Absec2{
+    margin-top: 100px;
+}
+
+/* section 1 ends here  */
+
+/* Nav  */
+/* nav new */
+#socialhandle{
+    padding-bottom: 30px;
+/* }
+#navnew input{
+    padding: 10px;
+    border-radius: 20px;
+    border:1px solid white;
+    outline: none;
+    /* background-color:transparent; */
+} */
+#submitt{
+    color:blue;
+    background-color: white;
+}
+#subscribbe{
+    background-color: transparent;
+}
+.fa{
+    padding: 20px;
+    font-size: 50px;
+    width: 30px;
+    /* text-align: start; */
+    text-decoration: none;
+  }
+  .fa-facebook{
+    color: white;
+    font-size: 50px;
+  }
+  .fa-twitter{
+    color: white;
+    font-size: 50px;
+  } 
+  .fa-google
+  {
+    color: white;
+    font-size: 50px;
+  } 
+  .fa-github
+  {
+    color: white;
+    font-size: 50px;
+  }
+
+
+
+  /* nav  */
+  #navbar{
+    background-color: #4A2ACE;
+    margin-top: 116px;
+    padding-top: 87px;
+    padding-bottom: 87px;
+
+}
+  .navheading{
+    font-size: 26px;
+    font-weight: bold;
+    }
+    .decor{
+    color: white;
+    
+    }
+
+    /* #dec2{
+        padding-top: -10px;
+       
+    } */
+    /* #dec2 p{
+        margin-bottom: -30px; 
+       } */
+       #navnew input{
+        /* padding: 10px;
+        border-radius: 20px;
+        border:1px solid white;
+        outline: none; */
+        /* background-color:transparent; */
+    }
+
+    #navnew{
+        position: relative;
+    }
+    #navnew input[type=submitt]{
+        position:absolute;
+        right: -100px;
+    }
+
+
+    #submitt{
+        color:blue;
+        background-color: white;
+    }
+    #subscribbe{
+        background-color: transparent;
+    }
+
+    #oncetell{
+        position: relative;
+    }
+    /* #cctell{
+     
+        border-radius: 30px;
+        background-color: transparent;
+        border:1px solid white;
+    } */
+   
+    
+    #underbtn{
+        position:absolute;
+      right: -20px;
+       bottom: -1px;
+        padding: 13px 35px 10px 35px;
+        border-radius: 30px;
+        color: blue;
+        font-weight: 500;
+        border: none;
+        margin-top: 25px;
+    }
+#newtab{
+    position: relative;
+    width: 300px; height: 30px;
+    background-color: transparent;
+    border: 1px solid white ;
+    border-radius: 100px;
+    margin-top: -10px;
+    padding-top: 45px;
+}
+/* Breadcrumb  */
+#btnbacktohome a{
+text-decoration: none;
+}
+
+
+/* Progress  Bar*/
+
+#progresss{
+    display: flex;
+}
+#progresss1{
+    width:160px;
+    height:160px;
+    /* background-color: blue; */
+    position:relative;
+   
+}
+#outer{
+    width:160px;
+    height:160px;
+    /* background-color: blue; */
+    border-radius: 50%;
+    /* border: 1px solid red; */
+    padding: 20px;
+}
+#inner{
+    width:120px;
+    height:120px;
+    /* background-color: blue; */
+    border-radius: 50%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#pronum{
+    font-size: 20px;
+    font-weight: bold;
+}
+circle{
+    fill: none;
+    stroke: aqua;
+    stroke-width: 20px;
+    stroke-dasharray: 220,220;
+    stroke-dashoffset: 440;
+    
+    stroke-linecap: square;
+   
+
+   
+    /* animation: proanim 0.5s linear forwards; */
+}
+svg{
+    position: absolute;
+   
+}
+@keyframes proanim {
+    100%{
+        stroke-dashoffset:0;
+        opacity: 0;
+    }
+    
+}
+
+/* Nav icon  */
+
+/* #maiil::before{
+    content:  "\F7CB";
+    font-family: "Bootstrap-icons";
+    padding-inline-end: .5em; 
+} */

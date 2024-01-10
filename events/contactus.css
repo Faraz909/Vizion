@@ -1,0 +1,382 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+
+/* contact  */
+
+#getintouch{
+    font-size: 32px;
+    font-weight: bold;
+}
+#established{
+    font-size: 16px;
+font-weight: bold;
+
+}
+@media screen and (max-width:414px){
+    *{
+        overflow-x: hidden;
+    }
+}
+.contactus{
+
+    margin-top: 100px;
+    }
+#conntact{
+
+    margin-top: 100px;
+    }
+    #namee{
+    border-radius: 30px;
+    border: 2px solid #b6b4b4;
+    padding: 10px 10px;
+    }
+    #namee:hover{
+border-color: blue;
+    }
+    #mailee{
+    border-radius: 30px;
+    border: 2px solid #b6b4b4;
+    padding: 10px 10px;
+    
+    }
+    #mailee:hover{
+border-color: blue;
+    }
+    #phonee{
+    border-radius: 30px;
+    border: 2px solid #b6b4b4;
+    padding: 15px 15px;
+    }
+    #phonee:hover{
+border-color: blue;
+    }
+    #msgee{
+    border-radius: 10px;
+    border: 2px solid #b6b4b4;
+    padding: 10px 10px;
+    }
+    #msgee:hover{
+border-color: blue;
+    }
+
+
+    #formm{
+    
+    }
+    input #phone{
+    padding: 100px;
+    }
+    #mapp{
+        /* background-color:#F3F4FB; */
+        border-radius: 10px;
+        text-align: center;
+    width: 50%;
+    }
+    #mapp{
+        width: 445px;
+        background-color:#F3F4FB;
+    
+    }
+    .designn{
+        color: blue;
+    }
+    .info{
+        font-size: 42px;
+        color: #4A2ACE;
+        text-align:start;
+        padding-left: 30px;
+        font-weight: bold;
+    }
+    /* #infonum{
+        text-align:start;
+    } */
+    .maptext{
+        font-size: 16px;
+        color: #323131;
+        padding-left: 40px;
+        font-weight: 600;
+        text-align:;
+    }
+    /* input[type=text]{
+    padding: 10px;
+    border-radius: 30px;
+    border: 2px solid #666666;
+    padding-right: 50px;
+    outline: none;
+    }
+    input[type=text]:hover{
+    border-color: blue;
+    } */
+    textarea:hover{
+    border-color: blue;
+    }
+
+    /* textarea{
+        border-radius: 10px;
+        border: 2px solid #666666;
+        margin-top: 50px;
+    } */
+    
+    input[type=submit]{
+        padding: 10px;
+        border-radius: 30px;
+        border: 2px solid blue;
+        padding: 5px 30px 5px 30px;
+        outline: none;
+        text-align: center;
+        color: blue;
+        font-weight:semi-bold;
+        font-size: 18px;
+        background-color: transparent;
+        }
+    input[type=submit]:hover{
+        background-color: blue;
+        color: white;
+        cursor: pointer;
+        }
+    
+    /* #messagee{
+    margin-top: 50px;
+    } */
+
+/* contact anchor */
+
+#getintouch p{
+    font-size: 32px;
+}
+  /* media for form  */
+  @media screen and (max=width=600px) {
+
+#form12{
+    display:none;
+}
+
+textarea{
+    display: none;
+}
+  }
+  @media screen and (max=width=600px) {
+.form11 form{
+    display:none;
+}
+  }
+/* contact  */
+.changebc:hover{
+    background-color: yellow;
+  
+}
+.changebc{
+    
+    padding: 7px 25px 7px 25px;
+    border-radius: 20px;
+    color: white;
+    font-weight:bold;
+}
+
+.colorbcc:hover{
+    background-color: #9C8DD8;
+  
+}
+#activethis{
+    background-color: #9C8DD8;
+  
+}
+.colorbcc{
+    padding: 7px 25px 7px 25px;
+    border-radius: 20px;
+    
+}
+.changebc{
+    
+    padding: 7px 25px 7px 25px;
+    border-radius: 20px;
+}
+.dib ul li a{
+background-color: aqua;
+padding: 20px;
+}
+
+
+
+#section1wraper {
+    background-color:#4A2ACE    ;
+    max-width: 100%;
+  
+}
+
+/* 2nd section  */
+#abtus1{
+    margin-top: 65px;
+    
+}
+#sec2about{
+    text-align: center;
+    font-size: 50px;
+}
+#btnbacktohome{
+    text-align:center;
+    width: 220px;
+    height:52px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding-top: 12px;
+    font-size: 16px;
+    margin-bottom: 116px;
+}
+#Absec2{
+    margin-top: 100px;
+}
+/* Breadcrumb  */
+#btnbacktohome a{
+    text-decoration: none;
+    }
+
+ 
+
+/* Nav  */
+
+/* Nav  */
+/* nav new */
+#socialhandle{
+    padding-bottom: 30px;
+/* }
+#navnew input{
+    padding: 10px;
+    border-radius: 20px;
+    border:1px solid white;
+    outline: none;
+    /* background-color:transparent; */
+} */
+#submitt{
+    color:blue;
+    background-color: white;
+}
+#subscribbe{
+    background-color: transparent;
+}
+.fa{
+    padding: 20px;
+    font-size: 50px;
+    width: 30px;
+    /* text-align: start; */
+    text-decoration: none;
+  }
+  .fa-facebook{
+    color: white;
+    font-size: 50px;
+  }
+  .fa-twitter{
+    color: white;
+    font-size: 50px;
+  } 
+  .fa-google
+  {
+    color: white;
+    font-size: 50px;
+  } 
+  .fa-github
+  {
+    color: white;
+    font-size: 50px;
+  }
+
+
+
+  /* nav  */
+  #navbar{
+    background-color: #4A2ACE;
+    margin-top: 116px;
+    padding-top: 87px;
+    padding-bottom: 87px;
+
+}
+  .navheading{
+    font-size: 26px;
+    font-weight: bold;
+    }
+    .decor{
+    color: white;
+    
+    }
+
+    /* #dec2{
+        padding-top: -10px;
+       
+    } */
+    /* #dec2 p{
+        margin-bottom: -30px; 
+       } */
+       #navnew input{
+        /* padding: 10px;
+        border-radius: 20px;
+        border:1px solid white;
+        outline: none; */
+        /* background-color:transparent; */
+    }
+
+    #navnew{
+        position: relative;
+    }
+    #navnew input[type=submitt]{
+        position:absolute;
+        right: -100px;
+    }
+
+
+    #submitt{
+        color:blue;
+        background-color: white;
+    }
+    #subscribbe{
+        background-color: transparent;
+    }
+
+    #oncetell{
+        position: relative;
+    }
+    /* #cctell{
+     
+        border-radius: 30px;
+        background-color: transparent;
+        border:1px solid white;
+    } */
+   
+    
+    #underbtn{
+        position:absolute;
+      right: -20px;
+       bottom: -1px;
+        padding: 13px 35px 10px 35px;
+        border-radius: 30px;
+        color: blue;
+        font-weight: 500;
+        border: none;
+        margin-top: 25px;
+    }
+#newtab{
+    position: relative;
+    width: 300px; height: 30px;
+    background-color: transparent;
+    border: 1px solid white ;
+    border-radius: 100px;
+    margin-top: -10px;
+    padding-top: 45px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
